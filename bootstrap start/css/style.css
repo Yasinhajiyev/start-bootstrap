@@ -1,0 +1,125 @@
+
+*{padding: 0;
+margin: 0;
+font-family: Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
+.clear{clear:both}
+
+.logo{
+    padding:25px 0
+}
+
+.header .logo{
+    float:left;
+
+}
+.header .menu{
+    float: right;
+
+}
+.header menu ul{
+margin: 0;
+}
+
+.header .menu li{float:left;
+list-style: none;
+padding: 25px 15px;
+font-weight: 700
+}
+.wrapper{
+    width:80%;
+    margin:auto
+}
+/*
+------------
+header end
+----------
+/*
+
+/*
+------------
+Favorite start
+----------
+*/
+
+.favorite{
+    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%)
+    ,url(https://blackrockdigital.github.io/startbootstrap-creative/img/bg-masthead.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    padding: 20rem 
+}
+.favorite h1{
+    font-size: 3.5rem
+}
+.btn1{
+    padding: 20px 36px;
+    font-size: .85rem;
+    font-weight: 700;
+    background: #f4623a;
+    border:none;
+    color:#fff;
+    border-radius: 50px;
+    margin: 25px 0;
+    transition: background 1s
+}
+.favorite .btn1:hover{
+    background: #992809;
+    transition:1s;
+}
+.lineHr{
+    width: 80px;
+    border:3px solid red;
+    margin: 25px auto
+}
+.header{position:fixed;
+width: 100%;
+color:#fff
+}
+
+
+/*
+------------
+Favorite end
+----------
+*/
+/*get started start*/
+.getStarted .btn1{
+    background: white;
+    color: black;
+
+}
+.getStarted{
+    background: #f4623a;
+    color:white;
+    padding: 80px;
+    text-align: center
+}
+.getStarted .lineHr{
+    border-color: #fff
+}
+.getStarted .btn1:hover{
+    background: #ddd;
+}
+/*get started end*/
+
+/*service started*/
+.service{
+    text-align: center;
+    padding: 80px
+}
+.icon-item i{
+    color: #f4623a;
+    margin-bottom: 15px;
+    
+    
+}
+.icon-item{
+    float: left;
+    width: 25%
+}
+.icon-item p{
+    padding: 15px;
+    box-sizing: border-box
+}
